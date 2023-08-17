@@ -1,0 +1,19 @@
+npm init -y //to include package.json
+
+npm i hex-to-binary@1.0.1 --save
+
+npm i express --save
+
+npm i body-parser --save //middleware
+
+npm i nodemon --save
+npm run dev
+
+npm i redis@2.8.0
+
+npm i cross-env@5.2.0
+The function of cross-env is that it does not need to configure NODE_ENV globally
+to modify the value of NODE_ENV in scripts scripts so as to realize the difference
+of proccess. env. NODE_ENV in different environments.
+
+npm i request@2.88.0 --save //for syncing
